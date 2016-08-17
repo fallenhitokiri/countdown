@@ -10,13 +10,14 @@ Tested in:
 - Safari Version 9.1.2 (11601.7.7)
 - Chrome Version 52.0.2743.116 (64-bit)
 
-## How much time you spent on the exercise
+## Questions
+### How much time you spent on the exercise
 Roughly 35 minutes. (without writing this readme and getting the correct colours from the provided example image)
 
-## Why you chose the tools you did
+### Why you chose the tools you did
 - jQuery: simple div selection / setting text. Could easily be replaced with plain JavaScript.
 
-## What bugs / improvements you'd like to make in the code
+### What bugs / improvements you'd like to make in the code
 - Consider making `countdown` a class (ask for ES5/6 compatibility first).
 - Some warning when initialised with a date in the past.
 - Update CSS to account for more than 4 digit numbers
