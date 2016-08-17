@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Countdown 2016</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="remaining">
+                <span id="days"></span>
+                <span id="hours"></span>
+                <span id="minutes"></span>
+                <span id="seconds"></span>
+            </div>
+            <div id="labels">
+                <span id="days-label"></span>
+                <span id="hours-label"></span>
+                <span id="minutes-label"></span>
+                <span id="seconds-label"></span>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script>
+            countdown(
+                new Date("01/01/2017 00:00"),
+                $("#days"),
+                $("#hours"),
+                $("#minutes"),
+                $("#seconds"),
+                $("#days-label"),
+                $("#hours-label"),
+                $("#minutes-label"),
+                $("#seconds-label"),
+                function () {
+                    alert("Happy New Year!");
+                }
+            );
+        </script>
+    </body>
+</html>
